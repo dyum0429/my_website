@@ -180,7 +180,6 @@ export default function Home() {
                 <Tabs defaultValue="frontend" className="w-full">
                 <TabsList className="grid w-full grid-cols-3">
                     <TabsTrigger value="frontend">Frontend</TabsTrigger>
-                    <TabsTrigger value="backend">Backend</TabsTrigger>
                     <TabsTrigger value="tools">Tools & Others</TabsTrigger>
                 </TabsList>
                 <TabsContent value="frontend" className="mt-6">
@@ -244,15 +243,15 @@ export default function Home() {
                 <div className="mt-6 flex flex-col gap-3">
                     <div className="flex items-center gap-2">
                     <Mail className="h-5 w-5" />
-                    <span>alex.chen@example.com</span>
+                    <a href="danielyum55@gmail.com" target="_blank">email</a>
                     </div>
                     <div className="flex items-center gap-2">
-                    <Github className="h-5 w-5" />
-                    <span>github.com/alexchen</span>
+                        <Github className="h-5 w-5" />
+                        <a href="https://github.com/dyum0429" target="_blank"> github</a>
                     </div>
                     <div className="flex items-center gap-2">
                     <User className="h-5 w-5" />
-                    <span>linkedin.com/in/alexchen</span>
+                    <a href="https://www.linkedin.com/in/daniel-yum-899578250/" target="_blank">linkedin</a>
                     </div>
                 </div>
                 </div>
@@ -313,7 +312,7 @@ export default function Home() {
       <footer className="border-t py-6 md:py-0">
         <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
           <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-            © 2024 Alex Chen. All rights reserved.
+            © 2025 Daniel Yum. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <Button variant="ghost" size="icon">
